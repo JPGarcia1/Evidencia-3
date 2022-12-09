@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  h1{ font-size: 3.5em; color: white; font-family: 300;}
+  h2{ font-size: 2.7em;}
+  h3{ font-size: 2em;}
+  p { font-size: 1.25em;}
+  ul{ list-style: none;}
+
+  header {
+    display: flex;
+    height: 90px;
+    background-color: rgb(55, 182, 72);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img
+  {
+    height: 60px;
+    margin-right: 10px;
+  }
+
+#queEsMediaLuna {
+    text-align: left;
+    padding: 20px;
+}
+
+#queEsMediaLuna h2{
+    margin-top: 0;
+}
+
+#queEsMediaLuna img{
+    height: 350px;
+    float: right;
+}

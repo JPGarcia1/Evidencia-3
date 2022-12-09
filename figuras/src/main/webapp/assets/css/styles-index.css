@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1{ font-size: 3.5em; color: white; font-family: 300;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p { font-size: 1.25em;}
+ul{ list-style: none;}
+a {
+  align-items: center;
+  display: block;
+  width: 50px;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 15px 15px;
+  background-color: rgb(211, 89, 89);
+  color: white;
+  text-decoration: none;
+}
+a :hover{
+  background-color:rgb(209, 85, 85);
+}
+
+header {
+  display: flex;
+  height: 90px;
+  background-color: rgb(55, 182, 72);
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img
+{
+  height: 60px;
+  margin-right: 10px;
+}
+
+#ejemplos{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#ejemplos h2{
+  margin-top: 0;
+}
+
+#ejemplos p{
+  display: none;
+}
+
+#ejemplos .testo{
+  padding: 150px 12px;
+}
+
+#ejemplos .figuras{
+  display: flex;
+  justify-content: center;
+}
+
+#ejemplos p{
+  display: block;
+}
+
+#ejemplos .figura{
+  padding: 50px;
+}
+
+#ejemplos h3{
+  margin-top: 0;
+}
